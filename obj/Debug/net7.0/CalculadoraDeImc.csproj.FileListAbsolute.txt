@@ -1,0 +1,15 @@
+C:\workspace-csharp\CalculadoraDeImc\bin\Debug\net7.0\CalculadoraDeImc.exe
+C:\workspace-csharp\CalculadoraDeImc\bin\Debug\net7.0\CalculadoraDeImc.deps.json
+C:\workspace-csharp\CalculadoraDeImc\bin\Debug\net7.0\CalculadoraDeImc.runtimeconfig.json
+C:\workspace-csharp\CalculadoraDeImc\bin\Debug\net7.0\CalculadoraDeImc.dll
+C:\workspace-csharp\CalculadoraDeImc\bin\Debug\net7.0\CalculadoraDeImc.pdb
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.csproj.AssemblyReference.cache
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.AssemblyInfoInputs.cache
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.AssemblyInfo.cs
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.csproj.CoreCompileInputs.cache
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.dll
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\refint\CalculadoraDeImc.dll
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.pdb
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\CalculadoraDeImc.genruntimeconfig.cache
+C:\workspace-csharp\CalculadoraDeImc\obj\Debug\net7.0\ref\CalculadoraDeImc.dll
