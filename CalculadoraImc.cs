@@ -1,5 +1,3 @@
-using System;
-
 namespace CalculadoraDeImc
 {
     public class CalculadoraImc
@@ -23,22 +21,40 @@ namespace CalculadoraDeImc
         {
             Console.Clear();
 
-            Console.WriteLine("Calculadora de IMC");
-            Console.WriteLine("Digite uma das opções abaixo: ");
-            Console.WriteLine("1 - Criar novo arquivo");
-            Console.WriteLine("2 - Abrir arquivo");
-            Console.WriteLine("3 - Sair");
-            Opcao = int.Parse(Console.ReadLine());
-
-            switch(Opcao)
+            try
             {
-                case 1: Criar(); break;
-                case 2: Abrir();  break;
-                case 3: System.Environment.Exit(0); break;
-                default: Menu(); break;
-            }
+                Console.WriteLine("Calculadora de IMC");
+                Console.WriteLine("Digite uma das opções abaixo: ");
+                Console.WriteLine("1 - Criar novo arquivo");
+                Console.WriteLine("2 - Abrir arquivo");
+                Console.WriteLine("3 - Sair");
+                Opcao = int.Parse(Console.ReadLine());
 
-            Menu();
+                switch (Opcao)
+                {
+                    case 1: Criar(); break;
+                    case 2: Abrir(); break;
+                    case 3: System.Environment.Exit(0); break;
+                    default: Menu(); break;
+                }
+
+                //Menu();
+
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Valor inválido!");
+            }
+            catch(UnauthorizedAccessException ex)
+            {
+                Console.WriteLine("Caminho inválido ou acesso negado ao caminho indicado.");
+            }
+            finally
+            {
+                Console.WriteLine("Digite qualquer tecla para continuar.");
+                Console.ReadKey();
+                Menu();
+            }
         }
 
         public void Criar()
