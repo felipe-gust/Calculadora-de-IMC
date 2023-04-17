@@ -1,3 +1,3 @@
 # Calculadora-de-IMC
 
-Calculadora de IMC onde o usuário informa seus dados e após isso ela traz a informação do IMC dele. Utilizando a POO e Exceptions.
+Calculadora de IMC onde o usuário informa seus dados e depois informa se está acima do peso, peso ideal, etc. Foi usado a POO e Exceptions.
